@@ -17,6 +17,6 @@ void mousePressed(){//Cuando se precione una tecla del mouse...
   save("imagen.jpg");//Guardar imagen.
 }
 
-void keyPressed(){
+void keyPressed(){//Cuando se precione una tecla...
   save("imagen.jpg");//Guardar imagen.
 }
