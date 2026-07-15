@@ -24,12 +24,12 @@ void draw(){
   
   background(0); // Color de fondo de pantalla, negro;
   
-  horas = hour();
-  minutos = minute();
-  segundos = second();
+  horas = hour(); // Guarda el valor de la hora actual en la variable horas.
+  minutos = minute(); // Guarda el valor de los minutos actuales en la variable minutos.
+  segundos = second(); // Guarda el valor de los segundos actuales en la variable segundos.
   
-  texto = nf(horas, 2) + ":" + nf(minutos, 2) + ":" + nf(segundos, 2);
-  textSize(200); 
-  text(texto, 50, 430);
+  texto = nf(horas, 2) + ":" + nf(minutos, 2) + ":" + nf(segundos, 2); //Genera el texto para mostrar el tiempo en pantalla.
+  textSize(200); // Tamaño del texto. 
+  text(texto, 50, 430); // Imprimir el texto en pantalla.
   
 }
