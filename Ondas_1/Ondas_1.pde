@@ -17,6 +17,7 @@ sig_y = 1; // Función signo para cambiar el sentido de las flechas.
 void setup(){
   
   size(1400,440); // Tamaño de ventana
+  
 }
 
 void draw(){
